@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket - osTicket Installation</h1>
 Project shows the configuration of the osTicket system within a Virtual Machine running Windows 10. <br />
 
 
