@@ -32,6 +32,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 1: Create Azure Virtual Machine</b>
+ 
 -Go to Microsoft Azure
 -Navigate to Virtual Machines
 -Click Create → Azure Virtual Machine
@@ -49,6 +50,7 @@ Configuration:
 </p>
 <p>
  <b>STEP 2: Connect to Remote Desktop</b>
+ 
 -After deployment, click Connect → RDP
 -Download the RDP file
 -Open it and log in with:
