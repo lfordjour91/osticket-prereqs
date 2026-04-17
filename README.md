@@ -63,7 +63,11 @@ Configuration:
 <img width="340" height="292" alt="Screenshot 2026-04-13 at 3 10 46 PM" src="https://github.com/user-attachments/assets/e864adba-f60b-4e06-a4d2-7a0bfd5e347f" />
 </p>
 <p>
-Internet Information Services (IIS) was installed and enabled on the virtual machine. During setup, CGI was specifically enabled under World Wide Web Services → Application Development Features to support PHP processing.
+<b>STEP 3: Download Install Files</b>
+
+-Inside the VM, download:
+-osTicket-Installation-Files.zip
+-Extract it to your Desktop
 </p>
 <br />
 
@@ -71,15 +75,25 @@ Internet Information Services (IIS) was installed and enabled on the virtual mac
 <img width="1779" height="549" alt="Screenshot 2026-04-13 at 3 13 34 PM" src="https://github.com/user-attachments/assets/5d7c95ff-cd12-4ab7-9417-06eba43dff50" />
 </p>
 <p>
-Required dependencies were installed, including PHP Manager for IIS, the IIS URL Rewrite Module, and the Visual C++ Redistributable package. A directory named C:\PHP was then created, and PHP 7.3.8 was extracted into this folder to prepare for integration with IIS.
-</p>
+<b>STEP 4: Install IIS with CGI</b>
+ 
+-Open Control Panel → Programs → Turn Windows features on or off
+Enable:
+-Internet Information Services (IIS)
+Expand → World Wide Web Services
+Expand → Application Development Features
+✔️ Check CGI
 <br />
 
 <p>
 <img width="497" height="376" alt="Screenshot 2026-04-13 at 3 15 11 PM" src="https://github.com/user-attachments/assets/9982796d-ad8a-40b6-8d8e-e480935a698b" />
 </p>
 <p>
-MySQL 5.5 was installed using the typical setup configuration. The configuration wizard was launched after installation, and a standard configuration was selected with the root username and password set for database access.
+<b>STEP 5: Installed Required Files</b>
+-From the installation folder:
+Install:
+-PHP Manager for IIS
+-Rewrite Module
 </p>
 <br />
 
@@ -87,7 +101,10 @@ MySQL 5.5 was installed using the typical setup configuration. The configuration
 <img width="1415" height="738" alt="Screenshot 2026-04-13 at 3 16 24 PM" src="https://github.com/user-attachments/assets/f06d6d3b-473b-44a8-a899-c5afac46b2c8" />
 </p>
 <p>
-IIS was opened with administrative privileges, and PHP was registered using PHP Manager by pointing to the php-cgi.exe file located in the C:\PHP directory. IIS was then restarted to apply the configuration changes.
+<b>STEP 6: Setup PHP</b>
+-Create folder
+-Extract into C:\PHP
+ 
 </p>
 <br />
 
@@ -95,7 +112,16 @@ IIS was opened with administrative privileges, and PHP was registered using PHP 
 <img width="745" height="164" alt="Screenshot 2026-04-13 at 3 19 01 PM" src="https://github.com/user-attachments/assets/3e72f870-5fff-4b64-9842-02c8de37fb53" />
 </p>
 <p>
-The osTicket installation files were extracted, and the upload folder was copied into the C:\inetpub\wwwroot directory. The folder was then renamed to osTicket, and IIS was restarted again to ensure the application was properly recognized.
+<b>STEP 7: Install other components</b>
+-Install:
+ -VC_redist.x86.exe
+ -MySQL (mysql-5.5.62-win32.msi)
+-MySQL Setup:
+-Choose Typical Setup
+-Run Configuration Wizard:
+ -Standard Configuration
+ -Username: root
+ -Password: root
 </p>
 <br />
 
@@ -103,7 +129,14 @@ The osTicket installation files were extracted, and the upload folder was copied
 <img width="385" height="483" alt="Screenshot 2026-04-13 at 3 20 10 PM" src="https://github.com/user-attachments/assets/da400eda-3eb1-4c6b-8feb-3b31d9c0a9dc" />
 </p>
 <p>
-Within IIS, PHP Manager was used to enable required PHP extensions, including php_imap.dll, php_intl.dll, and php_opcache.dll. The osTicket site was refreshed in the browser to confirm that all required extensions were successfully enabled.
+<b>STEP 8: Configure IIS & PHP</b>
+Open IIS Manager (Run as Admin)
+Go to:
+PHP Manager
+Click:
+Register new PHP version
+Select:
+C:\PHP\php-cgi.exe
 </p>
 <br />
 
@@ -111,7 +144,10 @@ Within IIS, PHP Manager was used to enable required PHP extensions, including ph
 <img width="850" height="568" alt="Screenshot 2026-04-13 at 3 22 03 PM" src="https://github.com/user-attachments/assets/ca01f1d8-7cf0-4230-95cd-9598d5b044f2" />
 </p>
 <p>
-The sample configuration file ost-sampleconfig.php was renamed to ost-config.php. File permissions were then modified by disabling inheritance and granting full control access to all users to allow osTicket to complete its setup.
+<b>STEP 9: Restart IIS</b>
+-In IIS:
+ -Click Stop
+ -Then Start
 </p>
 <br />
 
@@ -119,16 +155,24 @@ The sample configuration file ost-sampleconfig.php was renamed to ost-config.php
 <img width="282" height="320" alt="Screenshot 2026-04-13 at 3 24 57 PM" src="https://github.com/user-attachments/assets/2f0a6613-87ff-4622-96c0-841ca2f7c762" />
 </p>
 <p>
-HeidiSQL was installed and used to connect to the MySQL server. A new database named osTicket was created to store the application’s data.
-</p>
+<b>STEP 10: Install osTicket</b>
+Extract:
+osTicket-v1.15.8.zip
+Copy the upload folder into:
+C:\inetpub\wwwroot
+Rename:
+upload → osTicket
 <br />
 
 <p>
  <img width="624" height="375" alt="Screenshot 2026-04-13 at 3 25 33 PM" src="https://github.com/user-attachments/assets/e986baba-3ae4-4706-974d-d884a8aa533b" />
 </p>
 <p>
-The osTicket setup was completed through a web browser by navigating to http://localhost/osTicket. The helpdesk name, default email, and database credentials were entered, and the installation was finalized by clicking “Install Now.”
+<b>STEP 11: Restart IIS Again</b>
+Repeat:
+Stop → Start IIS
 </p>
+<br />
 <img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
 
 </p>
