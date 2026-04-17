@@ -31,7 +31,16 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <img width="1735" height="803" alt="Screenshot 2026-04-13 at 3 06 10 PM" src="https://github.com/user-attachments/assets/9c4b2e37-cba2-41a9-9bb1-71fcf1d31237" />
 </p>
 <p>
-A Windows 10 virtual machine was created in Microsoft Azure with 4 vCPUs and configured with login credentials. The system was then accessed using Remote Desktop to begin the setup process.
+<b>STEP 1: Create Azure Virtual Machine</b>
+-Go to Microsoft Azure
+-Navigate to Virtual Machines
+-Click Create → Azure Virtual Machine
+Configuration:
+-Name: 
+-Image: Windows 10
+-Size: 4 vCPUs
+-Username: 
+-Password: 
 </p>
 <br />
 
@@ -39,7 +48,12 @@ A Windows 10 virtual machine was created in Microsoft Azure with 4 vCPUs and con
 <img width="1250" height="633" alt="Screenshot 2026-04-13 at 3 09 32 PM" src="https://github.com/user-attachments/assets/014d4c61-ad94-4795-a2b4-68e08b0c0704" />
 </p>
 <p>
-The osTicket-Installation-Files.zip folder was downloaded onto the virtual machine and extracted onto the desktop. These files were used throughout the installation process to configure osTicket and its dependencies.
+ <b>STEP 2: Connect to Remote Desktop</b>
+-After deployment, click Connect → RDP
+-Download the RDP file
+-Open it and log in with:
+-Username: labuser
+-Password: osTicketPassword1!
 </p>
 <br />
 
