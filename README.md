@@ -173,6 +173,118 @@ Repeat:
 Stop → Start IIS
 </p>
 <br />
-<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
 
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
 </p>
+<p>
+<b>STEP 12: Open osTicket in Browser</b>
+In IIS:
+Go to:
+Sites → Default Web Site → osTicket
+Click:
+*Browse :80
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 13: Enable PHP Extensions</b>
+Go back to IIS → osTicket
+Open PHP Manager
+Click:
+Enable or disable extensions
+Enable:
+php_imap.dll
+php_intl.dll
+php_opcache.dll
+Refresh browser
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 14: Configure osTicket File</b>
+Navigate to:
+C:\inetpub\wwwroot\osTicket\include\
+Rename:
+ost-sampleconfig.php → ost-config.php
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 15: Set Permissions</b>
+Right-click ost-config.php
+Go to Properties → Security
+Disable inheritance
+Remove all permissions
+Add:
+Everyone → Full Control
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 16: osTicket Setup (cont.)</b>
+Fill out:
+Helpdesk Name
+Default Email
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 17: Setup Database</b>
+Install and open HeidiSQL
+Create new session:
+Username: root
+Password: root
+Create database:
+osTicket
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 18: Connect osTicket to Database</b>
+Back in browser:
+MySQL Database: osTicket
+Username: root
+Password: root
+Click:
+Install Now
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>STEP 19: Access osTicket</b>
+Admin Login:
+http://localhost/osTicket/scp/login.php
+End User Portal:
+http://localhost/osTicket/
+</p>
+<br />
+
+<p>
+<img width="813" height="637" alt="Screenshot 2026-04-13 at 11 19 22 AM" src="https://github.com/user-attachments/assets/ee46dc60-987e-48d3-9a0d-60cd0945445b" />
+</p>
+<p>
+<b>RESULTS</b>
+You now have a fully functional osTicket Help Desk System running on an Azure VM
+</p>
+<br />
