@@ -28,7 +28,10 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <h2>Installation Steps</h2>
 
 <p>
-<img width="1735" height="803" alt="Screenshot 2026-04-13 at 3 06 10 PM" src="https://github.com/user-attachments/assets/9c4b2e37-cba2-41a9-9bb1-71fcf1d31237" />
+<img width="819" height="676" alt="Screenshot 2026-04-16 at 1 50 35 PM" src="https://github.com/user-attachments/assets/fedbdf67-8b6a-4fcc-9d1c-a953302d1829" />
+<img width="873" height="704" alt="Screenshot 2026-04-16 at 1 50 23 PM" src="https://github.com/user-attachments/assets/a8951d7b-b19c-4fac-9a19-d53d6b62a569" />
+<img width="1427" height="673" alt="Screenshot 2026-04-16 at 1 48 45 PM" src="https://github.com/user-attachments/assets/4386e009-b11a-4aa2-8708-e7871e56cbf3" />
+<img width="564" height="232" alt="Screenshot 2026-04-16 at 1 48 33 PM" src="https://github.com/user-attachments/assets/a4acb86b-25ac-4da5-a04e-5616ff849afa" />
 </p>
 <p>
 <b>STEP 1: Create Azure Virtual Machine</b>
