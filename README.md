@@ -84,13 +84,16 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 4: Install IIS with CGI</b>
- 
--Open Control Panel → Programs → Turn Windows features on or off
-Enable:
--Internet Information Services (IIS)
-Expand → World Wide Web Services
-Expand → Application Development Features
-✔️ Check CGI
+ <ul>
+<li>Open Control Panel → Programs → Turn Windows features on or off</li>
+<li>Enable:</li>
+  <ul>
+<li>Internet Information Services (IIS)</li>
+<li>Expand → World Wide Web Services</li>
+<li>Expand → Application Development Features</li>
+<li>✔️ Check CGI</li>
+ </ul>
+ </ul>
 <br />
 
 <p>
@@ -98,10 +101,14 @@ Expand → Application Development Features
 </p>
 <p>
 <b>STEP 5: Installed Required Files</b>
--From the installation folder:
-Install:
--PHP Manager for IIS
--Rewrite Module
+ <ul>
+<li>From the installation folder:</li>
+<li>Install:</li>
+  <ul>
+<li>PHP Manager for IIS</li>
+<li>Rewrite Module</li>
+ </ul>
+ </ul>
 </p>
 <br />
 
@@ -110,9 +117,10 @@ Install:
 </p>
 <p>
 <b>STEP 6: Setup PHP</b>
--Create folder
--Extract into C:\PHP
- 
+ <ul>
+<li>Create folder</li>
+<li>Extract into C:\PHP</li>
+ </ul>
 </p>
 <br />
 
@@ -121,15 +129,24 @@ Install:
 </p>
 <p>
 <b>STEP 7: Install other components</b>
--Install:
- -VC_redist.x86.exe
- -MySQL (mysql-5.5.62-win32.msi)
--MySQL Setup:
--Choose Typical Setup
--Run Configuration Wizard:
- -Standard Configuration
- -Username: root
- -Password: root
+<ul>
+ <li>Install:</li>
+ <ul>
+ <li>VC_redist.x86.exe</li>
+<li> MySQL (mysql-5.5.62-win32.msi)</li>
+ </ul>
+<li>MySQL Setup:</li>
+ <ul>
+<li>Choose Typical Setup</li>
+<li>Run Configuration Wizard:</li>
+<li>Standard Configuration</li>
+  <ul>
+<li>Username: root</li>
+ <li>Password: root</li>
+  </ul>
+ </ul>
+</ul>
+</ul>
 </p>
 <br />
 
