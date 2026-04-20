@@ -15,7 +15,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (22H2)
+- Windows 10 (22H2)
 
 <h2>List of Prerequisites</h2>
 
@@ -40,11 +40,13 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Configuration:</li>
   <ul>
 <li>Name: osTicket_VM</li>
-<li>Image: Windows 10</li>
+<li>Image: Windows 10 (22H2) *if you don't see it, select "See All Images"</li>
 <li>Size: 2-4 vCPUs</li>
 <li>Username: labuser</li>
 <li>Password: osTicketPassword1</li>
   </ul>
+  <li>Click "Review + Create" → Click "Create"</li>
+  <li>WAit for the Virtual Machine to be created and start running</li>
  </ul> 
 </ul>
 </p>
@@ -56,8 +58,8 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <p>
  <b>STEP 2: Connect to Remote Desktop</b>
 <ul> 
-<li>Open Windows App, click "+" → Add PC</li>
-<li>Copy the Public IP address for the VM</li>
+<li>Open Windows App Application, click "+" → Add PC</li>
+<li>Copy the Public IP address for the Virtual Machine</li>
  <li>Paste the Public IP into Windows App</li>
 <li>Open it and log in with:</li>
  <ul>
