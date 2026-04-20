@@ -54,9 +54,6 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <br />
 
 <p>
-
-</p>
-<p>
  <b>STEP 2: Connect to Remote Desktop</b>
 <ul> 
 <li>After deployment, click Connect → RDP</li>
@@ -68,11 +65,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  </ul>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 2" src="https://github.com/user-attachments/assets/50d2f6a9-2ff4-4ecf-a7a8-f9bb10331762" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 3: Download Install Files</b>
 <ul>
@@ -81,11 +78,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Extract it to your Desktop</li>
 </ul>
 </p>
-<br />
-
 <p>
 
 </p>
+<br />
+
 <p>
 <b>STEP 4: Install IIS with CGI</b>
 <ul>
@@ -98,11 +95,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>✔️ Check CGI</li>
  </ul>
 </ul>
+<p>
+<img width="1920" height="1080" alt="Artboard 4" src="https://github.com/user-attachments/assets/8026854b-7339-47bf-9594-3d030ba3ef7f" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 5: Installed Required Files</b>
 <ul>
@@ -114,11 +111,12 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  </ul>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 5" src="https://github.com/user-attachments/assets/f83679c8-949f-45b2-b263-b83cb9086521" />
+</p>
 <br />
 
-<p>
-<img width="1415" height="738" alt="Screenshot 2026-04-13 at 3 16 24 PM" src="https://github.com/user-attachments/assets/f06d6d3b-473b-44a8-a899-c5afac46b2c8" />
-</p>
+
 <p>
 <b>STEP 6: Setup PHP</b>
 <ul>
@@ -126,11 +124,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Extract into C:\PHP</li>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 6" src="https://github.com/user-attachments/assets/34e4bf78-5f93-4d23-aa17-d3348381d06b" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 7: Install other components</b>
 <ul>
@@ -152,11 +150,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </ul>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 7" src="https://github.com/user-attachments/assets/782cafee-6276-4eb8-b8f6-e0b65aa72851" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 8: Configure IIS & PHP</b>
 <ul>
@@ -170,11 +168,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Select:C:\PHP\php-cgi.exe</li>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 8" src="https://github.com/user-attachments/assets/851e751d-86e4-450a-a476-e59b9fd8177e" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 9: Restart IIS</b>
 <ul>
@@ -185,11 +183,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  </ul>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 9" src="https://github.com/user-attachments/assets/99e862c6-7ea0-4ed9-a5fa-f18df6484442" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 10: Install osTicket</b>
 <ul>
@@ -200,11 +198,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  <li>upload → osTicket</li>
  </ul>
 </ul>
+<p>
+<img width="1920" height="1080" alt="Artboard 10" src="https://github.com/user-attachments/assets/97c9622a-f5bb-4650-ad2f-09e14dc1e666" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 11: Restart IIS Again</b>
  <ul>
@@ -212,11 +210,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Stop → Start IIS</li>
  </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 11" src="https://github.com/user-attachments/assets/5ce104ca-35b3-4d60-b0dc-966cfb28f1ef" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 12: Open osTicket in Browser</b>
  <ul>
@@ -231,11 +229,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
   </ul>
  </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 12" src="https://github.com/user-attachments/assets/a8b0ea74-d7af-4b47-9618-1b7528e2a6e1" />
+</p>
 <br />
 
-<p>
-<
-</p>
 <p>
 <b>STEP 13: Enable PHP Extensions</b>
 <ul>
@@ -254,11 +252,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  </ul>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 13" src="https://github.com/user-attachments/assets/7e41d9bd-6f24-4c35-aedb-659ceb0f0410" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 14: Configure osTicket File</b>
  <ul>
@@ -266,11 +264,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Rename: ost-sampleconfig.php → ost-config.php</li>
  </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 14" src="https://github.com/user-attachments/assets/32a4594f-4a4d-4037-8a11-998f7c25f5f7" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 15: Set Permissions</b>
  <ul>
@@ -286,11 +284,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
   </ul>
  </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 15" src="https://github.com/user-attachments/assets/1c3c4a95-b765-4b28-85f4-0c4a5f4e904e" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 16: osTicket Setup (cont.)</b>
 <ul>
@@ -300,11 +298,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Default Email</li>
  </ul>
 </ul>
+<p>
+<img width="1920" height="1080" alt="Artboard 16" src="https://github.com/user-attachments/assets/4059f9fe-4d5a-4696-8a25-4a99c1c02e2d" />
+</p>
 <br />
 
-<p>
-
-</p>
 <p>
 <b>STEP 17: Setup Database</b>
 <ul>
@@ -322,10 +320,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  </ul>
 </ul>
 </p>
+<p>
+<img width="1920" height="1080" alt="Artboard 17" src="https://github.com/user-attachments/assets/07461967-7c7d-4ab6-b894-182bc324b5b2" />
+</p>
 <br />
 
-<p>
-</p>
 <p>
 <b>STEP 18: Connect osTicket to Database</b>
  <ul>
@@ -338,11 +337,12 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Click: <strong>Install Now</strong></li>
  </ul>
 </p>
-<br />
-
 <p>
+<img width="1920" height="1080" alt="Artboard 18" src="https://github.com/user-attachments/assets/b238b9a5-1942-474e-b4f8-8e883a3b4580" />
 
 </p>
+<br />
+
 <p>
 <b>STEP 19: Access osTicket</b>
  <ul>
@@ -359,6 +359,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <br />
 
 <p>
+<img width="1920" height="1080" alt="Artboard 19" src="https://github.com/user-attachments/assets/fd530dc2-ff5d-4866-9bc8-c6149afc865e" />
 
 </p>
 <p>
