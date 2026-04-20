@@ -155,13 +155,16 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 8: Configure IIS & PHP</b>
-Open IIS Manager (Run as Admin)
-Go to:
-PHP Manager
-Click:
-Register new PHP version
-Select:
-C:\PHP\php-cgi.exe
+<ul>
+<li>Open IIS Manager (Run as Admin)</li>
+<li>Go to:</li>
+ <ul>
+<li>PHP Manager</li>
+<li>Click:</li>
+ </ul>
+<li>Register new PHP version</li>
+<li>Select:C:\PHP\php-cgi.exe</li>
+</ul>
 </p>
 <br />
 
@@ -170,9 +173,13 @@ C:\PHP\php-cgi.exe
 </p>
 <p>
 <b>STEP 9: Restart IIS</b>
--In IIS:
- -Click Stop
- -Then Start
+<ul>
+ <li>In IIS:</li>
+ <ul>
+ <li>Click Stop</li>
+ <li>Then Start</li>
+ </ul>
+</ul>
 </p>
 <br />
 
@@ -181,12 +188,14 @@ C:\PHP\php-cgi.exe
 </p>
 <p>
 <b>STEP 10: Install osTicket</b>
-Extract:
-osTicket-v1.15.8.zip
-Copy the upload folder into:
-C:\inetpub\wwwroot
-Rename:
-upload → osTicket
+<ul>
+ <li>Extract: osTicket-v1.15.8.zip</li>
+ <li>Copy the upload folder into: C:\inetpub\wwwroot</li>
+ <ul>
+ <li>Rename:</li>
+ <li>upload → osTicket</li>
+ </ul>
+</ul>
 <br />
 
 <p>
@@ -194,8 +203,10 @@ upload → osTicket
 </p>
 <p>
 <b>STEP 11: Restart IIS Again</b>
-Repeat:
-Stop → Start IIS
+ <ul>
+<li>Repeat:</li>
+<li>Stop → Start IIS</li>
+ </ul>
 </p>
 <br />
 
@@ -204,11 +215,17 @@ Stop → Start IIS
 </p>
 <p>
 <b>STEP 12: Open osTicket in Browser</b>
-In IIS:
-Go to:
-Sites → Default Web Site → osTicket
-Click:
-*Browse :80
+ <ul>
+<li>In IIS:</li>
+  <ul>
+<li>Go to:</li>
+   <ul>
+<li>Sites → Default Web Site → osTicket</li>
+<li>Click:</li>
+<li>*Browse :80</li>
+   </ul>
+  </ul>
+ </ul>
 </p>
 <br />
 
@@ -217,15 +234,21 @@ Click:
 </p>
 <p>
 <b>STEP 13: Enable PHP Extensions</b>
-Go back to IIS → osTicket
-Open PHP Manager
-Click:
-Enable or disable extensions
-Enable:
-php_imap.dll
-php_intl.dll
-php_opcache.dll
-Refresh browser
+<ul>
+ <li>Go back to IIS → osTicket</li>
+ <ul>
+<li>Open PHP Manager</li>
+<li>Click:</li>
+<li>Enable or disable extensions</li>
+<li>Enable:</li>
+  <ul>
+<li>php_imap.dll</li>
+<li>php_intl.dll</li>
+<li>php_opcache.dll</li>
+  </ul>
+<li>Refresh browser</li>
+ </ul>
+</ul>
 </p>
 <br />
 
@@ -234,10 +257,10 @@ Refresh browser
 </p>
 <p>
 <b>STEP 14: Configure osTicket File</b>
-Navigate to:
-C:\inetpub\wwwroot\osTicket\include\
-Rename:
-ost-sampleconfig.php → ost-config.php
+ <ul>
+<li>Navigate to: C:\inetpub\wwwroot\osTicket\include\</li>
+<li>Rename: ost-sampleconfig.php → ost-config.php</li>
+ </ul>
 </p>
 <br />
 
@@ -246,12 +269,18 @@ ost-sampleconfig.php → ost-config.php
 </p>
 <p>
 <b>STEP 15: Set Permissions</b>
-Right-click ost-config.php
-Go to Properties → Security
-Disable inheritance
-Remove all permissions
-Add:
-Everyone → Full Control
+ <ul>
+<li>Right-click ost-config.php</li>
+<li>Go to Properties → Security</li>
+  <ul>
+<li>Disable inheritance</li>
+<li>Remove all permissions</li>
+<li>Add:</li>
+   <ul>
+<li>Everyone → Full Control</li>
+   </ul>
+  </ul>
+ </ul>
 </p>
 <br />
 
@@ -260,9 +289,13 @@ Everyone → Full Control
 </p>
 <p>
 <b>STEP 16: osTicket Setup (cont.)</b>
-Fill out:
-Helpdesk Name
-Default Email
+<ul>
+ <li>Fill out:</li>
+ <ul>
+<li>Helpdesk Name</li>
+<li>Default Email</li>
+ </ul>
+</ul>
 <br />
 
 <p>
@@ -270,12 +303,20 @@ Default Email
 </p>
 <p>
 <b>STEP 17: Setup Database</b>
-Install and open HeidiSQL
-Create new session:
-Username: root
-Password: root
-Create database:
-osTicket
+<ul>
+ <li>Install and open HeidiSQL</li>
+ <ul>
+<li>Create new session:</li>
+  <ul>
+<li>Username: root</li>
+<li>Password: root</li>
+  </ul>
+<li>Create database:</li>
+  <ul>
+<li>osTicket</li>
+  </ul>u
+ </ul>
+</ul>
 </p>
 <br />
 
@@ -284,12 +325,15 @@ osTicket
 </p>
 <p>
 <b>STEP 18: Connect osTicket to Database</b>
-Back in browser:
-MySQL Database: osTicket
-Username: root
-Password: root
-Click:
-Install Now
+ <ul>
+<li>Back in browser:</li>
+  <ul>
+<li>MySQL Database: osTicket</li>
+<li>Username: root</li>
+<li>Password: root</li>
+  </ul>
+<li>Click: Install Now</li>
+ </ul>
 </p>
 <br />
 
@@ -298,10 +342,16 @@ Install Now
 </p>
 <p>
 <b>STEP 19: Access osTicket</b>
-Admin Login:
-http://localhost/osTicket/scp/login.php
-End User Portal:
-http://localhost/osTicket/
+ <ul>
+<li>Admin Login:</li>
+  <ul>
+<li>http://localhost/osTicket/scp/login.php</li>
+  </ul>
+<li>End User Portal:</li>
+  <ul>
+<li>http://localhost/osTicket/</li>
+  </ul>
+ </ul>
 </p>
 <br />
 
