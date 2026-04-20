@@ -348,11 +348,11 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  <ul>
 <li>Admin Login:</li>
   <ul>
-<li><a href="http://localhost/osTicket/scp/login.php"></a></li>
+<li><a href="http://localhost/osTicket/scp/login.php">Admin Login</a></li>
   </ul>
 <li>End User Portal:</li>
   <ul>
-<li><a href="http://localhost/osTicket/"></a></li>
+<li><a href="http://localhost/osTicket/">End User Portal</a></li>
   </ul>
  </ul>
 </p>
