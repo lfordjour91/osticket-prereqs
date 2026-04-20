@@ -46,7 +46,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Password: osTicketPassword1</li>
   </ul>
   <li>Click "Review + Create" → Click "Create"</li>
-  <li>WAit for the Virtual Machine to be created and start running</li>
+  <li>Wait for the Virtual Machine to be created and start running</li>
  </ul> 
 </ul>
 </p>
@@ -60,6 +60,8 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <ul> 
 <li>Open Windows App Application, click "+" → Add PC</li>
 <li>Copy the Public IP address for the Virtual Machine</li>
+ <ul>
+  <li>The IP Address can be located from the "Virtual Machines" page in Azure
  <li>Paste the Public IP into Windows App</li>
 <li>Open it and log in with:</li>
  <ul>
@@ -76,8 +78,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <p>
 <b>STEP 3: Download Install Files</b>
 <ul>
-<li>Inside the VM, download:</li>
-<a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket-Installation-Files.zip</a>
+<li>Copy <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket-Installation-Files.zip</a> inside the browser in the VM and download</li>
 <li>Extract it to your Desktop</li>
 </ul>
 </p>
@@ -89,7 +90,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <p>
 <b>STEP 4: Install IIS with CGI</b>
 <ul>
-<li>Open Control Panel → Programs → Turn Windows features on or off</li>
+<li>In the search bar type "Control Panel" go to Programs then click "Turn Windows features on or off"</li>
 <li>Enable:</li>
  <ul>
 <li>Internet Information Services (IIS)</li>
@@ -127,7 +128,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  <ul>
   <li>Name the new folder "PHP"</li>
  </ul>
-<li>Extract file "php-7.3.8-nts-Win32-VC15-x86" from osTicket Install folder into C:\PHP</li>
+<li>Extract file "php-7.3.8-nts-Win32-VC15-x86" from the osTicket Install folder into C:\PHP</li>
 </ul>
 </p>
 <p>
@@ -164,14 +165,14 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <p>
 <b>STEP 8: Configure IIS & PHP</b>
 <ul>
-<li>Open IIS Manager (Run as Admin)</li>
+<li>Open IIS Manager *Right Click* (Run as Admin)</li>
 <li>Go to:</li>
  <ul>
 <li>PHP Manager</li>
 <li>Click:</li>
  </ul>
 <li>Register new PHP version</li>
-<li>Select:C:\PHP\php-cgi.exe</li>
+<li>Select: C:\PHP\php-cgi.exe</li>
 </ul>
 </p>
 <p>
@@ -181,6 +182,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 
 <p>
 <b>STEP 9: Restart IIS</b>
+Hit the back arrow button
 <ul>
  <li>In IIS:</li>
  <ul>
@@ -198,10 +200,9 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <b>STEP 10: Install osTicket</b>
 <ul>
  <li>Extract: osTicket-v1.15.8.zip</li>
- <li>Copy the upload folder into: C:\inetpub\wwwroot</li>
+ <li>Copy the "upload" folder into: C:\inetpub\wwwroot</li>
  <ul>
- <li>Rename:</li>
- <li>upload → osTicket</li>
+ <li>Rename: upload → osTicket</li>
  </ul>
 </ul>
 <p>
@@ -229,8 +230,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Go to:</li>
    <ul>
 <li>Sites → Default Web Site → osTicket</li>
-<li>Click:</li>
-<li>*Browse :80</li>
+<li>Click: *Browse :80</li>
    </ul>
   </ul>
  </ul>
@@ -246,8 +246,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  <li>Go back to IIS → osTicket</li>
  <ul>
 <li>Open PHP Manager</li>
-<li>Click:</li>
-<li>Enable or disable extensions</li>
+<li>Click: Enable or disable extensions</li>
 <li>Enable:</li>
   <ul>
 <li>php_imap.dll</li>
