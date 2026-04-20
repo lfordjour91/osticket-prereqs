@@ -28,10 +28,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <h2>Installation Steps</h2>
 
 <p>
-<img width="564" height="232" alt="Screenshot 2026-04-16 at 1 48 33 PM" src="https://github.com/user-attachments/assets/8cd4d48f-b9e9-4447-a58d-083e63626d7e" />
-<img width="1427" height="673" alt="Screenshot 2026-04-16 at 1 48 45 PM" src="https://github.com/user-attachments/assets/3277a157-e796-4de0-abf5-0fb38c414d69" />
-<img width="873" height="704" alt="Screenshot 2026-04-16 at 1 50 23 PM" src="https://github.com/user-attachments/assets/b94efc9b-955f-445a-9750-11f7784f5c7d" />
-<img width="819" height="676" alt="Screenshot 2026-04-16 at 1 50 35 PM" src="https://github.com/user-attachments/assets/c7388c55-a01a-4707-b32a-8dd9cded6bb0" />
+
 </p>
 <p>
 <b>STEP 1: Create Azure Virtual Machine</b>
@@ -54,19 +51,19 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <br />
 
 <p>
-<img width="1002" height="469" alt="Screenshot 2026-04-16 at 1 51 40 PM" src="https://github.com/user-attachments/assets/849bf0a6-906e-4762-802c-1742974814f9" />
-<img width="1530" height="295" alt="Screenshot 2026-04-16 at 2 03 47 PM" src="https://github.com/user-attachments/assets/4a1d1416-bab5-4f99-9faf-926162104e6f" />
-<img width="469" height="529" alt="Screenshot 2026-04-16 at 2 04 13 PM" src="https://github.com/user-attachments/assets/68611800-4f65-4272-a76b-edbf4a655e3e" />
-<img width="844" height="282" alt="Screenshot 2026-04-16 at 2 04 55 PM" src="https://github.com/user-attachments/assets/8238743c-1b63-4b30-b402-6288a93b9e6e" />
+
 </p>
 <p>
  <b>STEP 2: Connect to Remote Desktop</b>
- 
--After deployment, click Connect → RDP
--Download the RDP file
--Open it and log in with:
--Username: labuser
--Password: osTicketPassword1!
+<ul> 
+<li>After deployment, click Connect → RDP</li>
+<li>Download the RDP file</li>
+<li>Open it and log in with:</li>
+ <ul>
+<li>Username: labuser</li>
+<li>Password: osTicketPassword1!</li>
+ </ul>
+</ul>
 </p>
 <br />
 
