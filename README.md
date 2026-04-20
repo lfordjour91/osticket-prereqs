@@ -360,11 +360,17 @@ Hit the back arrow button
   <ul>
 <li><a href="http://localhost/osTicket/scp/login.php">Admin Login</a></li>
   </ul>
+  <p>
+  <img width="1536" height="960" alt="Screenshot 2026-04-20 at 3 51 58 PM" src="https://github.com/user-attachments/assets/0af14837-27eb-4f8c-bea4-4f4abcda7dec" />
+</p>
 <li>End User Portal:</li>
   <ul>
 <li><a href="http://localhost/osTicket/">End User Portal</a></li>
   </ul>
  </ul>
+ <p>
+  <img width="953" height="556" alt="Screenshot 2026-04-20 at 3 52 21 PM" src="https://github.com/user-attachments/assets/d3160706-948a-4544-8061-d9500d795dc4" />
+ </p>
 </p>
 <br />
 
