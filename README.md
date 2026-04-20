@@ -9,7 +9,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 
 <h2>Environments and Technologies Used</h2>
 
-- <a href="https://portal.azure.com/" target="_blank">Microsoft Azure (Virtual Machines/Compute)</a>
+- <a href="https://portal.azure.com/" target="_blank" rel="noopener noreferrer">Microsoft Azure (Virtual Machines/Compute)</a>
 - Remote Desktop <Windows App)
 - Internet Information Services (IIS)
 
