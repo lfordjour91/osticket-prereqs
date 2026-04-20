@@ -42,8 +42,8 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Name: </li>
 <li>Image: Windows 10</li>
 <li>Size: 4 vCPUs</li>
-<li>Username: </li>
-<li>Password: </li>
+<li>Username: labuser</li>
+<li>Password: osTicketPassword1</li>
   </ul>
  </ul> 
 </ul>
@@ -56,8 +56,9 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <p>
  <b>STEP 2: Connect to Remote Desktop</b>
 <ul> 
-<li>After deployment, click Connect → RDP</li>
-<li>Download the RDP file</li>
+<li>Open Windows App, click "+" → Add PC</li>
+<li>Copy the Public IP address for the VM</li>
+ <li>Paste the Public IP into Windows App</li>
 <li>Open it and log in with:</li>
  <ul>
 <li>Username: labuser</li>
