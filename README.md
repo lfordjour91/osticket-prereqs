@@ -35,15 +35,15 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <ul> 
 <li>Go to Microsoft Azure</li>
 <li>Navigate to Virtual Machines</li>
-<li>Click Create → Azure Virtual Machine</li>
+<li>Click Create → Virtual Machine</li>
  <ul>
 <li>Configuration:</li>
   <ul>
-<li>Name: </li>
+<li>Name: osTicket_VM</li>
 <li>Image: Windows 10</li>
 <li>Size: 4 vCPUs</li>
 <li>Username: labuser</li>
-<li>Password: osTicketPassword1</li>
+<li>Password: Password1</li>
   </ul>
  </ul> 
 </ul>
@@ -62,7 +62,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Open it and log in with:</li>
  <ul>
 <li>Username: labuser</li>
-<li>Password: osTicketPassword1!</li>
+<li>Password: Password1!</li>
  </ul>
 </ul>
 </p>
