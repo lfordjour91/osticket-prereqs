@@ -74,7 +74,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <b>STEP 3: Download Install Files</b>
 <ul>
 <li>Inside the VM, download:</li>
-[osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+<a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket-Installation-Files.zip</a>
 <li>Extract it to your Desktop</li>
 </ul>
 </p>
