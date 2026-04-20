@@ -35,16 +35,17 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 1: Create Azure Virtual Machine</b>
- 
--Go to Microsoft Azure
--Navigate to Virtual Machines
--Click Create → Azure Virtual Machine
+<ul> 
+<li>-Go to Microsoft Azure</li>
+<li>-Navigate to Virtual Machines</li>
+<li>-Click Create → Azure Virtual Machine</li>
 Configuration:
--Name: 
--Image: Windows 10
--Size: 4 vCPUs
--Username: 
--Password: 
+<li>-Name: </li>
+<li>-Image: Windows 10</li>
+<li>-Size: 4 vCPUs</li>
+<li>-Username: </li>
+<li>-Password: </li>
+</ul>
 </p>
 <br />
 
