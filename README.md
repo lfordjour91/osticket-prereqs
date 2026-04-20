@@ -84,16 +84,16 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 4: Install IIS with CGI</b>
- <ul>
+<ul>
 <li>Open Control Panel → Programs → Turn Windows features on or off</li>
 <li>Enable:</li>
-  <ul>
+ <ul>
 <li>Internet Information Services (IIS)</li>
 <li>Expand → World Wide Web Services</li>
 <li>Expand → Application Development Features</li>
 <li>✔️ Check CGI</li>
  </ul>
- </ul>
+</ul>
 <br />
 
 <p>
@@ -101,14 +101,14 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 5: Installed Required Files</b>
- <ul>
+<ul>
 <li>From the installation folder:</li>
 <li>Install:</li>
-  <ul>
+ <ul>
 <li>PHP Manager for IIS</li>
 <li>Rewrite Module</li>
  </ul>
- </ul>
+</ul>
 </p>
 <br />
 
@@ -117,10 +117,10 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 </p>
 <p>
 <b>STEP 6: Setup PHP</b>
- <ul>
+<ul>
 <li>Create folder</li>
 <li>Extract into C:\PHP</li>
- </ul>
+</ul>
 </p>
 <br />
 
@@ -332,7 +332,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Username: root</li>
 <li>Password: root</li>
   </ul>
-<li>Click: Install Now</li>
+<li>Click: <strong>Install Now</strong></li>
  </ul>
 </p>
 <br />
