@@ -41,9 +41,9 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
   <ul>
 <li>Name: osTicket_VM</li>
 <li>Image: Windows 10</li>
-<li>Size: 4 vCPUs</li>
+<li>Size: 2-4 vCPUs</li>
 <li>Username: labuser</li>
-<li>Password: Password1</li>
+<li>Password: osTicketPassword1</li>
   </ul>
  </ul> 
 </ul>
@@ -62,7 +62,7 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <li>Open it and log in with:</li>
  <ul>
 <li>Username: labuser</li>
-<li>Password: Password1!</li>
+<li>Password: osTicketPassword1!</li>
  </ul>
 </ul>
 </p>
@@ -122,7 +122,10 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <b>STEP 6: Setup PHP</b>
 <ul>
 <li>Create folder</li>
-<li>Extract into C:\PHP</li>
+ <ul>
+  <li>Name the new folder "PHP"</li>
+ </ul>
+<li>Extract file "php-7.3.8-nts-Win32-VC15-x86" from osTicket Install folder into C:\PHP</li>
 </ul>
 </p>
 <p>
@@ -274,13 +277,15 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
 <b>STEP 15: Set Permissions</b>
  <ul>
 <li>Right-click ost-config.php</li>
-<li>Go to Properties → Security</li>
+<li>Go to Properties → Security → Advanced</li>
   <ul>
 <li>Disable inheritance</li>
 <li>Remove all permissions</li>
 <li>Add:</li>
    <ul>
-<li>Everyone → Full Control</li>
+    <li>Click "Select A Principal"</li>
+<li>Type "Everyone" → Press "Check Names" → Click "Add"</li>
+    <li> Select "Full Control" → Press "Apply"</li>
    </ul>
   </ul>
  </ul>
@@ -297,7 +302,9 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
  <ul>
 <li>Helpdesk Name</li>
 <li>Default Email</li>
+  <li>Admin User</li>
  </ul>
+ *Defualt Email & Admin Email must be different*
 </ul>
 <p>
 <img width="1920" height="1080" alt="Artboard 16" src="https://github.com/user-attachments/assets/4059f9fe-4d5a-4696-8a25-4a99c1c02e2d" />
@@ -313,11 +320,12 @@ Project shows the configuration of the osTicket system within a Virtual Machine 
   <ul>
 <li>Username: root</li>
 <li>Password: root</li>
+   <li>Click "Open"</li>
   </ul>
 <li>Create database:</li>
   <ul>
 <li>osTicket</li>
-  </ul>u
+  </ul>
  </ul>
 </ul>
 </p>
